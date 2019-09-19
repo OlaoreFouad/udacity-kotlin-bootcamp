@@ -1,9 +1,19 @@
 import classes.Aquarium
 import classes.SimpleSpice
 import classes.Spice
+import classes.SpiceContainer
 
 fun main(args: Array<String>) {
-    buildAquarium()
+
+    val sc1 = SpiceContainer("curry")
+    val sc2 = SpiceContainer("thyme")
+    val sc3 = SpiceContainer("mayo")
+
+    println(sc1)
+    println(sc2)
+    println(sc3)
+
+    //buildAquarium()
 }
 
 fun buildAquarium() {
